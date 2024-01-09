@@ -1,7 +1,9 @@
-let nom = "Noel NOMGNE FOKA";
+let prenom = "Je m'appelle Noel";
+let age = 33;
+let age2 = "33";
 
-let age;
-age =  33;
-
-console.log(nom)
-console.log(age)
+document.getElementById("p1").innerHTML = "Type de prenom " + typeof prenom;
+document.getElementById("p2").innerHTML = "Type de age" + 
+typeof age;
+document.getElementById("p3").innerHTML = "Type de age2" + 
+typeof age2;
