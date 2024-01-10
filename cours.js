@@ -10,3 +10,4 @@ typeof age2;
 
 const a = "Salut";
 const b = "les gents";
+console.log (a + " " + b);
